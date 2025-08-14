@@ -6,11 +6,10 @@ body, html {
     background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
-    color: #f8f8f8; /* Light text for contrast */
+    color: #f8f8f8;
     position: relative;
 }
 
-/* Animation for a dynamic effect */
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -19,7 +18,6 @@ body, html {
 
 
 
-/* Dark overlay for readability */
 .bg-overlay {
     position: absolute;
     top: 0; left: 0;
@@ -28,7 +26,7 @@ body, html {
     z-index: 1;
 }
 
-/* Glassmorphism container */
+
 .glass-form {
     position: relative;
     z-index: 2;
@@ -47,11 +45,11 @@ body, html {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
 }
 
-/* Title styles */
+
 .site-title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    color: #ff85a1; /* Elegant pink accent */
+    color: #ff85a1; 
 }
 
 h2 {
@@ -60,7 +58,7 @@ h2 {
     color: #ffffff;
 }
 
-/* Inputs */
+
 input {
     width: 100%;
     padding: 12px;
@@ -76,7 +74,7 @@ input::placeholder {
     color: #e5e5e5;
 }
 
-/* Buttons */
+
 button {
     width: 100%;
     padding: 12px;
@@ -94,7 +92,7 @@ button:hover {
     background: linear-gradient(135deg, #d6336c, #a12d54);
 }
 
-/* Links */
+
 p {
     margin-top: 15px;
     font-size: 14px;
@@ -110,13 +108,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Inputs - Borderless design */
+
 input {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
-    border: none;               /* No borders */
-    outline: none;              /* No focus outline */
+    border: none;               
+    outline: none;             
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.15);
     color: #ffffff;
@@ -124,28 +122,28 @@ input {
     transition: background 0.3s ease;
 }
 
-/* Placeholder styling */
+
 input::placeholder {body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     background: url('https://images.unsplash.com/photo-1529636538010-8e094b5649a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') 
-                center/cover no-repeat fixed;  /* Background fixed */
+                center/cover no-repeat fixed;  
     color: #f8f8f8;
     position: relative;
 }
 
-/* Dark overlay for readability */
+
 .bg-overlay {
-    position: fixed; /* Also fixed so it matches background */
+    position: fixed; 
     top: 0; left: 0;
     width: 100%; height: 100%;
     background: rgba(0, 0, 0, 0.65);
     z-index: 1;
 }
 
-/* Glassmorphism container aligned to left */
+
 .glass-form {
     position: relative;
     z-index: 2;
@@ -163,7 +161,7 @@ input::placeholder {body, html {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
 }
 
-/* Title styles */
+
 .site-title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -176,7 +174,6 @@ h2 {
     color: #ffffff;
 }
 
-/* Inputs - Borderless */
 input {
     width: 100%;
     padding: 12px;
@@ -198,7 +195,7 @@ input:focus {
     background: rgba(255, 255, 255, 0.25);
 }
 
-/* Buttons */
+
 button {
     width: 100%;
     padding: 12px;
@@ -216,7 +213,7 @@ button:hover {
     background: linear-gradient(135deg, #d6336c, #a12d54);
 }
 
-/* Links */
+
 p {
     margin-top: 15px;
     font-size: 14px;
@@ -235,7 +232,8 @@ a:hover {
     color: #e5e5e5;
 }
 
-/* On focus - slightly brighten background */
+
 input:focus {
     background: rgba(255, 255, 255, 0.25);
+
 }
